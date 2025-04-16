@@ -134,39 +134,39 @@ build samples\rebuild_cache: phony samples\CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target gtest_lib
+# Object build statements for STATIC_LIBRARY target gtest
 
 
 #############################################
-# Order-only phony target for gtest_lib
+# Order-only phony target for gtest
 
-build cmake_object_order_depends_target_gtest_lib: phony || .
+build cmake_object_order_depends_target_gtest: phony || .
 
-build gtest\CMakeFiles\gtest_lib.dir\gtest-all.cc.obj: CXX_COMPILER__gtest_lib_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest\gtest-all.cc || cmake_object_order_depends_target_gtest_lib
+build gtest\CMakeFiles\gtest.dir\gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest\gtest-all.cc || cmake_object_order_depends_target_gtest
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest
-  OBJECT_DIR = gtest\CMakeFiles\gtest_lib.dir
-  OBJECT_FILE_DIR = gtest\CMakeFiles\gtest_lib.dir
-  TARGET_COMPILE_PDB = gtest\CMakeFiles\gtest_lib.dir\gtest_lib.pdb
-  TARGET_PDB = gtest\gtest_lib.pdb
+  OBJECT_DIR = gtest\CMakeFiles\gtest.dir
+  OBJECT_FILE_DIR = gtest\CMakeFiles\gtest.dir
+  TARGET_COMPILE_PDB = gtest\CMakeFiles\gtest.dir\gtest.pdb
+  TARGET_PDB = gtest\gtest.pdb
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target gtest_lib
+# Link build statements for STATIC_LIBRARY target gtest
 
 
 #############################################
-# Link the static library gtest\gtest_lib.lib
+# Link the static library gtest\gtest.lib
 
-build gtest\gtest_lib.lib: CXX_STATIC_LIBRARY_LINKER__gtest_lib_Debug gtest\CMakeFiles\gtest_lib.dir\gtest-all.cc.obj
+build gtest\gtest.lib: CXX_STATIC_LIBRARY_LINKER__gtest_Debug gtest\CMakeFiles\gtest.dir\gtest-all.cc.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
-  OBJECT_DIR = gtest\CMakeFiles\gtest_lib.dir
+  OBJECT_DIR = gtest\CMakeFiles\gtest.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = gtest\CMakeFiles\gtest_lib.dir\gtest_lib.pdb
-  TARGET_FILE = gtest\gtest_lib.lib
-  TARGET_PDB = gtest\gtest_lib.pdb
+  TARGET_COMPILE_PDB = gtest\CMakeFiles\gtest.dir\gtest.pdb
+  TARGET_FILE = gtest\gtest.lib
+  TARGET_PDB = gtest\gtest.pdb
 
 
 #############################################
@@ -197,57 +197,57 @@ build gtest\rebuild_cache: phony gtest\CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target polinoms_test_run
+# Object build statements for EXECUTABLE target polinoms_test
 
 
 #############################################
-# Order-only phony target for polinoms_test_run
+# Order-only phony target for polinoms_test
 
-build cmake_object_order_depends_target_polinoms_test_run: phony || cmake_object_order_depends_target_gtest_lib
+build cmake_object_order_depends_target_polinoms_test: phony || cmake_object_order_depends_target_gtest
 
-build test\CMakeFiles\polinoms_test_run.dir\test_list.cpp.obj: CXX_COMPILER__polinoms_test_run_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\test_list.cpp || cmake_object_order_depends_target_polinoms_test_run
+build test\CMakeFiles\polinoms_test.dir\test_list.cpp.obj: CXX_COMPILER__polinoms_test_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\test_list.cpp || cmake_object_order_depends_target_polinoms_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\..\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\..\gtest
-  OBJECT_DIR = test\CMakeFiles\polinoms_test_run.dir
-  OBJECT_FILE_DIR = test\CMakeFiles\polinoms_test_run.dir
-  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test_run.dir\
-  TARGET_PDB = test\polinoms_test_run.pdb
+  INCLUDES = -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest
+  OBJECT_DIR = test\CMakeFiles\polinoms_test.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\polinoms_test.dir
+  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test.dir\
+  TARGET_PDB = test\polinoms_test.pdb
 
-build test\CMakeFiles\polinoms_test_run.dir\test_main.cpp.obj: CXX_COMPILER__polinoms_test_run_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\test_main.cpp || cmake_object_order_depends_target_polinoms_test_run
+build test\CMakeFiles\polinoms_test.dir\test_main.cpp.obj: CXX_COMPILER__polinoms_test_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\test_main.cpp || cmake_object_order_depends_target_polinoms_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\..\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\..\gtest
-  OBJECT_DIR = test\CMakeFiles\polinoms_test_run.dir
-  OBJECT_FILE_DIR = test\CMakeFiles\polinoms_test_run.dir
-  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test_run.dir\
-  TARGET_PDB = test\polinoms_test_run.pdb
+  INCLUDES = -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest
+  OBJECT_DIR = test\CMakeFiles\polinoms_test.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\polinoms_test.dir
+  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test.dir\
+  TARGET_PDB = test\polinoms_test.pdb
 
-build test\CMakeFiles\polinoms_test_run.dir\test_polinoms.cpp.obj: CXX_COMPILER__polinoms_test_run_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\test_polinoms.cpp || cmake_object_order_depends_target_polinoms_test_run
+build test\CMakeFiles\polinoms_test.dir\test_polinoms.cpp.obj: CXX_COMPILER__polinoms_test_unscanned_Debug C$:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\test_polinoms.cpp || cmake_object_order_depends_target_polinoms_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\..\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\test\..\gtest
-  OBJECT_DIR = test\CMakeFiles\polinoms_test_run.dir
-  OBJECT_FILE_DIR = test\CMakeFiles\polinoms_test_run.dir
-  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test_run.dir\
-  TARGET_PDB = test\polinoms_test_run.pdb
+  INCLUDES = -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\include -IC:\Users\User\OneDrive\Документы\GitHub\mp2-2024-lab4-polinoms\gtest
+  OBJECT_DIR = test\CMakeFiles\polinoms_test.dir
+  OBJECT_FILE_DIR = test\CMakeFiles\polinoms_test.dir
+  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test.dir\
+  TARGET_PDB = test\polinoms_test.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target polinoms_test_run
+# Link build statements for EXECUTABLE target polinoms_test
 
 
 #############################################
-# Link the executable test\polinoms_test_run.exe
+# Link the executable test\polinoms_test.exe
 
-build test\polinoms_test_run.exe: CXX_EXECUTABLE_LINKER__polinoms_test_run_Debug test\CMakeFiles\polinoms_test_run.dir\test_list.cpp.obj test\CMakeFiles\polinoms_test_run.dir\test_main.cpp.obj test\CMakeFiles\polinoms_test_run.dir\test_polinoms.cpp.obj | gtest\gtest_lib.lib || gtest\gtest_lib.lib
+build test\polinoms_test.exe: CXX_EXECUTABLE_LINKER__polinoms_test_Debug test\CMakeFiles\polinoms_test.dir\test_list.cpp.obj test\CMakeFiles\polinoms_test.dir\test_main.cpp.obj test\CMakeFiles\polinoms_test.dir\test_polinoms.cpp.obj | gtest\gtest.lib || gtest\gtest.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = gtest\gtest_lib.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = test\CMakeFiles\polinoms_test_run.dir
+  LINK_LIBRARIES = gtest\gtest.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = test\CMakeFiles\polinoms_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test_run.dir\
-  TARGET_FILE = test\polinoms_test_run.exe
-  TARGET_IMPLIB = test\polinoms_test_run.lib
-  TARGET_PDB = test\polinoms_test_run.pdb
+  TARGET_COMPILE_PDB = test\CMakeFiles\polinoms_test.dir\
+  TARGET_FILE = test\polinoms_test.exe
+  TARGET_IMPLIB = test\polinoms_test.lib
+  TARGET_PDB = test\polinoms_test.pdb
 
 
 #############################################
@@ -275,17 +275,17 @@ build test\rebuild_cache: phony test\CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build gtest_lib: phony gtest\gtest_lib.lib
+build gtest: phony gtest\gtest.lib
 
-build gtest_lib.lib: phony gtest\gtest_lib.lib
+build gtest.lib: phony gtest\gtest.lib
 
 build polinoms: phony samples\polinoms.exe
 
 build polinoms.exe: phony samples\polinoms.exe
 
-build polinoms_test_run: phony test\polinoms_test_run.exe
+build polinoms_test: phony test\polinoms_test.exe
 
-build polinoms_test_run.exe: phony test\polinoms_test_run.exe
+build polinoms_test.exe: phony test\polinoms_test.exe
 
 # =============================================================================
 # Folder targets.
@@ -302,7 +302,7 @@ build all: phony samples\all gtest\all test\all
 #############################################
 # Folder: C:/Users/User/OneDrive/Документы/GitHub/mp2-2024-lab4-polinoms/out/build/x64-Debug/gtest
 
-build gtest\all: phony gtest\gtest_lib.lib
+build gtest\all: phony gtest\gtest.lib
 
 # =============================================================================
 
@@ -316,7 +316,7 @@ build samples\all: phony samples\polinoms.exe
 #############################################
 # Folder: C:/Users/User/OneDrive/Документы/GitHub/mp2-2024-lab4-polinoms/out/build/x64-Debug/test
 
-build test\all: phony test\polinoms_test_run.exe
+build test\all: phony test\polinoms_test.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

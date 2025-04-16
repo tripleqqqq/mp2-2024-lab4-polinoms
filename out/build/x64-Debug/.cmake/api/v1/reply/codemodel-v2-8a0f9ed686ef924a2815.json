@@ -40,7 +40,7 @@
 					"jsonFile" : "directory-gtest-Debug-2618f1bde6c55d7920ba.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10"
+						"string" : "2.8"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
@@ -55,7 +55,7 @@
 					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10"
+						"string" : "2.8"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
@@ -90,9 +90,9 @@
 			[
 				{
 					"directoryIndex" : 2,
-					"id" : "gtest_lib::@0af4add9fe94340e763e",
-					"jsonFile" : "target-gtest_lib-Debug-7f23bb53f7f2e67363b0.json",
-					"name" : "gtest_lib",
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Debug-66fd351849d96298ac16.json",
+					"name" : "gtest",
 					"projectIndex" : 0
 				},
 				{
@@ -104,9 +104,9 @@
 				},
 				{
 					"directoryIndex" : 3,
-					"id" : "polinoms_test_run::@36f028580bb02cc8272a",
-					"jsonFile" : "target-polinoms_test_run-Debug-6f997c1292bd9d10b993.json",
-					"name" : "polinoms_test_run",
+					"id" : "polinoms_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-polinoms_test-Debug-b44edd6b885cceb7c4d2.json",
+					"name" : "polinoms_test",
 					"projectIndex" : 0
 				}
 			]

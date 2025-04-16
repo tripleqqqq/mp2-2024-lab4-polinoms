@@ -1,12 +1,11 @@
-cmake_minimum_required(VERSION 3.10)
-set(target gtest_lib)  
+set(target "gtest")
 
-add_library(${target} STATIC 
-    gtest-all.cc
-    gtest.h
-)
+add_library(${target} STATIC gtest-all.cc)
 
-if(UNIX AND NOT APPLE)
-    find_package(Threads REQUIRED)
-    target_link_libraries(${target} Threads::Threads)
+if((${CMAKE_CXX_COMPILER_ID} MATCHES "GNU" OR
+    ${CMAKE_CXX_COMPILER_ID} MATCHES "Clang") AND
+    (${CMAKE_SYSTEM_NAME} MATCHES "Linux"))
+    set(pthread "-pthread")
 endif()
+
+target_link_libraries(${target} ${pthread})

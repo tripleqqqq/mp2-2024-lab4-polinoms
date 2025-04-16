@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test/polinoms_test_run.exe"
+			"path" : "test/polinoms_test.exe"
 		},
 		{
-			"path" : "test/polinoms_test_run.pdb"
+			"path" : "test/polinoms_test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -30,13 +30,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
@@ -47,12 +47,6 @@
 				"file" : 1,
 				"line" : 3,
 				"parent" : 3
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 4,
-				"parent" : 0
 			}
 		]
 	},
@@ -74,14 +68,6 @@
 				{
 					"backtrace" : 4,
 					"path" : "C:/Users/User/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/GitHub/mp2-2024-lab4-polinoms/gtest"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "C:/Users/User/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/GitHub/mp2-2024-lab4-polinoms/test/../include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "C:/Users/User/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/GitHub/mp2-2024-lab4-polinoms/test/../gtest"
 				}
 			],
 			"language" : "CXX",
@@ -97,10 +83,10 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gtest_lib::@0af4add9fe94340e763e"
+			"id" : "gtest::@0af4add9fe94340e763e"
 		}
 	],
-	"id" : "polinoms_test_run::@36f028580bb02cc8272a",
+	"id" : "polinoms_test::@36f028580bb02cc8272a",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -115,7 +101,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "gtest\\gtest_lib.lib",
+				"fragment" : "gtest\\gtest.lib",
 				"role" : "libraries"
 			},
 			{
@@ -125,8 +111,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "polinoms_test_run",
-	"nameOnDisk" : "polinoms_test_run.exe",
+	"name" : "polinoms_test",
+	"nameOnDisk" : "polinoms_test.exe",
 	"paths" : 
 	{
 		"build" : "test",
