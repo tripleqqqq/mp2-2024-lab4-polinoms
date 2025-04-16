@@ -1,0 +1,12 @@
+# ninja log v5
+3	12	0	clean	8c45b54705a541e8
+62	340	7665425818398473	samples/polinoms.exe	8f8fd2e561a7a007
+11	61	7665425815835892	samples/CMakeFiles/polinoms.dir/dummy.cpp.obj	13b72e7ad48736fb
+15	1181	7665425826972402	gtest/CMakeFiles/gtest_lib.dir/gtest-all.cc.obj	9a0745d60da2a246
+20	629	7665425821476912	test/CMakeFiles/polinoms_test_run.dir/test_main.cpp.obj	8d275ee03dec3b75
+23	685	7665425822031956	test/CMakeFiles/polinoms_test_run.dir/test_polinoms.cpp.obj	8f74cf21d4c96d19
+17	644	7665425821640686	test/CMakeFiles/polinoms_test_run.dir/test_list.cpp.obj	20435c07808643e3
+1183	1234	7665425827492037	gtest/gtest_lib.lib	c27fe9cb758eaeb2
+1235	1513	7665425830188704	test/polinoms_test_run.exe	78204562d5d04ad9
+2	49	7665429627240440	samples/CMakeFiles/polinoms.dir/dummy.cpp.obj	13b72e7ad48736fb
+49	158	7665429628112077	samples/polinoms.exe	8f8fd2e561a7a007

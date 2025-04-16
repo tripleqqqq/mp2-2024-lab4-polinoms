@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "samples",
+					"jsonFile" : "directory-samples-Debug-026e8de27727d40e5852.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Debug-2618f1bde6c55d7920ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gtest",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_lib::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_lib-Debug-7f23bb53f7f2e67363b0.json",
+					"name" : "gtest_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "polinoms::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-polinoms-Debug-dfc11fc716092bc48635.json",
+					"name" : "polinoms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "polinoms_test_run::@36f028580bb02cc8272a",
+					"jsonFile" : "target-polinoms_test_run-Debug-6f997c1292bd9d10b993.json",
+					"name" : "polinoms_test_run",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/User/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/GitHub/mp2-2024-lab4-polinoms/out/build/x64-Debug",
+		"source" : "C:/Users/User/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/GitHub/mp2-2024-lab4-polinoms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
